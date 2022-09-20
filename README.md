@@ -27,22 +27,23 @@ python generate_training_data.py --output_dir=data/PEMS-BAY --traffic_df_filenam
 * METR-LA
 
 ```
-python main.py --adj_data ./data/sensor_graph/adj_mx.pkl --data ./data/METR-LA --spationum_nodes 207 --temporalembednode_dim 10 --order 3 --spationeighbor_amounts 10 --temporalneighbor_amounts 1
+python main.py --adj_data ./data/sensor_graph/adj_mx.pkl --data ./data/METR-LA --num_nodes 207 --temporalembednode_dim 4 --order 2  --neiaccount 2
 
 ```
 * PEMS-BAY
 
 ```
-python main.py --adj_data ./data/sensor_graph/adj_mx_bay.pkl --data ./data/PEMS-BAY --spationum_nodes 325 --temporalembednode_dim 15 --order 2 --spationeighbor_amounts 5 --temporalneighbor_amounts 2
+python main.py --adj_data ./data/sensor_graph/adj_mx_bay.pkl --data ./data/PEMS-BAY --num_nodes 325 --temporalembednode_dim 4 --order 2 --neiaccount 1
+
 ```
 
 ## Citation
 
 ```
 @inproceedings{yuan2022higher,
-  title={Higher-Order Causal Graph Neural Networks for Multi-Step Traffic Flow Prediction},
-  author={Kaixin, Yuan and Jing, Liu},
-  booktitle={Proceedings of the 31st International Joint Conference on Artificial Intelligence (IJCAI)},
+  title={Higher-Order Masked Graph Neural Networks for Multi-Step Traffic Flow Prediction},
+  author={Kaixin, Yuan, Jing, Liu, and Jian Lou},
+  booktitle={22nd IEEE International Conference on Data Mining},
   year={2022}
 }
 ```
