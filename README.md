@@ -1,5 +1,5 @@
 # HOCGNN
-This is a PyTorch implementation of the paper: [Higher-Order Masked Graph Neural Networks for Multi-Step Traffic Flow Prediction](https://www.baidu.com). 
+This is a PyTorch implementation of the paper: [Higher-Order Masked Graph Neural Networks for Multi-Step Traffic Flow Prediction](https://www.google.com). 
 
 ## Requirements
 The model is implemented using Python3 with dependencies specified in requirements.txt
@@ -27,13 +27,13 @@ python generate_training_data.py --output_dir=data/PEMS-BAY --traffic_df_filenam
 * METR-LA
 
 ```
-python main.py --adj_data ./data/sensor_graph/adj_mx.pkl --data ./data/METR-LA --num_nodes 207 --temporalembednode_dim 4 --order 2  --neiaccount 2
+python main.py --adj_data ./data/sensor_graph/adj_mx.pkl --data ./data/METR-LA --num_nodes 207 --order 2  --neiaccount 2
 
 ```
 * PEMS-BAY
 
 ```
-python main.py --adj_data ./data/sensor_graph/adj_mx_bay.pkl --data ./data/PEMS-BAY --num_nodes 325 --temporalembednode_dim 4 --order 2 --neiaccount 1
+python main.py --adj_data ./data/sensor_graph/adj_mx_bay.pkl --data ./data/PEMS-BAY --num_nodes 325 --order 2 --neiaccount 1
 
 ```
 
