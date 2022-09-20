@@ -42,7 +42,7 @@ python main.py --adj_data ./data/sensor_graph/adj_mx_bay.pkl --data ./data/PEMS-
 ```
 @inproceedings{yuan2022higher,
   title={Higher-Order Masked Graph Neural Networks for Multi-Step Traffic Flow Prediction},
-  author={Kaixin, Yuan, Jing, Liu, and Jian Lou},
+  author={Kaixin Yuan, Jing Liu, and Jian Lou},
   booktitle={22nd IEEE International Conference on Data Mining},
   year={2022}
 }
