@@ -1,4 +1,4 @@
-# HOCGNN
+# HOMGNN
 This is a PyTorch implementation of the paper: [Higher-Order Masked Graph Neural Networks for Multi-Step Traffic Flow Prediction](https://www.google.com). 
 
 ## Requirements
