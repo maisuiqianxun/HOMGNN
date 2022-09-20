@@ -1,5 +1,5 @@
 # HOCGNN
-This is a PyTorch implementation of the paper: [Higher-Order Causal Graph Neural Networks for Multi-Step Traffic Flow Prediction](https://www.baidu.com). 
+This is a PyTorch implementation of the paper: [Higher-Order Masked Graph Neural Networks for Multi-Step Traffic Flow Prediction](https://www.baidu.com). 
 
 ## Requirements
 The model is implemented using Python3 with dependencies specified in requirements.txt
@@ -22,19 +22,6 @@ python generate_training_data.py --output_dir=data/PEMS-BAY --traffic_df_filenam
 ```
 
 ## Model Training
-
-### Run the Pre-trained Model on: 
-* METR-LA
-
-```
-python main_demo_METR.py
-
-```
-* PEMS-BAY
-
-```
-python main_demo_PEMS.py
-```
 
 ### Retrain Model on:
 * METR-LA
