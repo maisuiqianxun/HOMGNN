@@ -47,4 +47,4 @@ python main.py --adj_data ./data/sensor_graph/adj_mx_bay.pkl --data ./data/PEMS-
   year={2022}
 }
 ```
-Our code is based on the implementation of [MTGNN](https://www.google.com) 
+Our code is based on the implementation of [MTGNN](https://github.com/nnzhan/MTGNN) .
